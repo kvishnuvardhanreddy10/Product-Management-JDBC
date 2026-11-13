@@ -17,7 +17,7 @@ public class CollegeLogic {
 			+ ")";
 	
 	DB_Connection call = new DB_Connection();
-    Connection con = call.dbConnection();
+    Connection con = call.dbConnection1();
 
     public void createTable() {
         try {
